@@ -8,7 +8,7 @@ Ruby 3.0.2 / Rails 7.0.6 / Vue3 / PostgresSQL 14
 
 ```shell
 git clone git@github.com:shalarn1/stepful-scheduler.git
-cd stepful
+cd stepful-scheduler
 ```
 #### Ensure ruby version and bundler are installed
 Download and install all of the Ruby gems (dependencies) in Gemfile.lock
