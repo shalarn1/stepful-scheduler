@@ -5,7 +5,7 @@
     <span v-if="studentId == null" class="booked"> Appointment booked </span>
     <time-block-card v-for="block in timeBlocks" :time-block="block" :isForm="studentId != null"></time-block-card>
   </div>
-  <div v-else> No times have been added yet </div>
+  <div v-else> No times are available </div>
 </template>
 
 <script>
