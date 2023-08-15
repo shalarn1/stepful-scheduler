@@ -14,6 +14,7 @@ cd stepful-scheduler
 Download and install all of the Ruby gems (dependencies) in Gemfile.lock
 ```shell
 bundle install
+yarn install
 ```
 ### Initialize the database
 ```shell
