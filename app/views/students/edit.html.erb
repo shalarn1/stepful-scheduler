@@ -1,0 +1,5 @@
+<h1>Student <%= @student.id %> Schedule with a coach</h1>
+
+<div id="app">
+	<scheduler :student-id="<%=@student.id%>" :time-blocks="<%=@time_blocks_json%>"></scheduler>
+</div>

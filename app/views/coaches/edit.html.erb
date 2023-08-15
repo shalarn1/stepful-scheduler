@@ -1,0 +1,7 @@
+<h1>Coach <%= @coach.id %> Free Time Selector</h1>
+<div>Select your availability below. Each free block will be 2 hours and can be booked by exactly 1 student.</div>
+
+<div id="app">
+	<calendar-selector :coach-id="<%=@coach.id%>"></calendar-selector>
+	<time-blocks-list :time-blocks="<%=@time_blocks_json%>"></time-blocks-list>
+</div>
